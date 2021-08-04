@@ -1,0 +1,99 @@
+.linha {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 100px 150px 0 150px;
+}
+
+.coluna {
+width: 50%;
+
+}
+
+.coluna p {
+	color: #929292;
+	font-family: arial;
+}
+
+h2 {
+	color: #6c63ff;
+}
+
+button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    
+    width: 100%;
+    background-color: #6c63ff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button:hover {
+    text-decoration: underline;
+    background-color: #929292;
+    color: white;
+}
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font: 1em sans-serif;
+
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
+
+    background: #26272b;
+}
+
+input:focus {
+    /* Dar um pouco de destaque nos elementos ativos */
+    border-color: #000;
+}
+
+footer {
+    font: 1em sans-serif;
+    background: #36373c;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 100px 0 0 0;
+    Color: #fdfdfd;
+    width: 100%;
+}
+
+.colunafooter {
+    
+    margin: 0 0 0 15%;
+}
+
+a {
+    Color: #fdfdfd;
+    text-decoration: none;
+
+}
+a:hover {
+    text-decoration: underline;
+    color: #6c63ff;
+}
